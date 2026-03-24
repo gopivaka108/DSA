@@ -17,5 +17,8 @@ int main () {
         front++;
         rear--;
     } 
+    for(int i=0; i<size; i++) {
+        std::cout<<arr[i]<<" ";
+    }
     return 0;
 }
