@@ -8,5 +8,14 @@ int main () {
     for(int i=0; i<size; i++) {
         std::cin>>arr[i];
     }
+    int front = 0, rear = size-1;
+    int temp;
+    while(front < rear) {
+        temp = arr[front];
+        arr[front] = arr[rear];
+        arr[rear] = temp;
+        front++;
+        rear--;
+    } 
     return 0;
 }
