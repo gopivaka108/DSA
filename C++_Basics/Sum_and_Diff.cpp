@@ -10,5 +10,7 @@ void Sum_and_Diff(int &a, int &b) {
 
 int main () {
     int x = 2, y = 3;
+    Sum_and_Diff(x, y);
+    cout << x << " " << y << endl;
     return 0;
 }
