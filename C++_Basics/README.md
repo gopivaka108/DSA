@@ -9,3 +9,5 @@ This repository tracks my progress in mastering C++ basics and Data Structures.
 To compile any file, use g++ in the terminal:
 `g++ filename.cpp`
 Then run the executable.
+## Author
+* Venkata Siva Gopi Vaka
