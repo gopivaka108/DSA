@@ -14,5 +14,9 @@ bool Palindrome_Check(const std::string& str) {
 }
 
 int main () {
+    std::string str;
+    std::cout << "Enter string: ";
+    std::cin >> str;
+    std::cout << (Palindrome_Check(str) ? "Yes" : "No") << std::endl;
     return 0;
 }
